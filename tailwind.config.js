@@ -10,7 +10,8 @@ module.exports = {
       'primary': 'hsl(171, 66%, 44%)',
       'secondary': 'hsl(233, 100%, 69%)',
       'color-title': 'hsl(210, 10%, 33%)',
-      'color-text': 'hsl(201, 11%, 66%),'
+      'color-text': 'hsl(201, 11%, 66%),',
+      'background': '#f2f2f2'
     },
     extend: {
       backgroundImage: {

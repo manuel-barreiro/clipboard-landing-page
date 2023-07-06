@@ -8,8 +8,12 @@ const baiJamjuree = Bai_Jamjuree({
 
 export default function Home() {
   return (
-    <div className={`${baiJamjuree.className} container`}>
-      <h1 className='text-color-text text-6xl'>Hola Mundo</h1>
+    <div className={`${baiJamjuree.className} bg-background min-h-screen bg-[url('/img/bg-header-mobile.png')] bg-top bg-no-repeat bg-contain`}>
+      <div className='container flex justify-center'>
+        <main className='flex flex-col justify-center pt-[125px]'>
+          <Image src='img/logo.svg' height={125} width={125} alt='logo'></Image>
+        </main>
+      </div>
     </div>
   )
 }
